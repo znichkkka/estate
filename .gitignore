@@ -1,0 +1,12 @@
+# Executable
+directory_change_tracker
+
+# Logs
+logs/
+*.log
+
+# Saved directories
+directories.txt
+
+# Object files
+*.o
