@@ -1,0 +1,37 @@
+body {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #222;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+header, .card, .filters {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+}
+
+a { color: #185a9d; }
+label { display: block; }
+input, select, textarea, button { font: inherit; }
+input, select, textarea { padding: 6px; max-width: 100%; box-sizing: border-box; }
+textarea { width: 100%; }
+button { padding: 6px 14px; cursor: pointer; }
+.inline { display: inline; margin: 0; }
+.helptext { display: block; color: #555; font-size: 14px; }
+.errorlist { color: #b00020; }
+.message { padding: 10px; background: #e6f3e6; }
+.preview { width: 240px; height: 160px; object-fit: cover; max-width: 100%; }
+.photo { max-width: 100%; max-height: 450px; }
+.description { white-space: pre-wrap; }
+dt { font-weight: bold; }
+dd { margin: 0 0 10px; }

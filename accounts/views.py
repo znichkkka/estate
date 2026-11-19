@@ -16,11 +16,11 @@ def register(request: HttpRequest) -> HttpResponse:
 
         return redirect('accounts:login')
 
-    return render(request, 'accounts/registration.html', {'form': form})
+    return render(request, 'accounts/register.html', {'form': form})
 
 
-def login():
-    ...
+def login(request: HttpRequest) -> HttpResponse:
+    return render(request, 'accounts/login.html')
 
 
 def logout():
