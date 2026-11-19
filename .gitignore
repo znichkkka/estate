@@ -1,12 +1,18 @@
-# Executable
-directory_change_tracker
+# misc
+.venv/
+.env
+media/
 
-# Logs
-logs/
-*.log
+# ide
+.idea/
+__pycache__/
+.vscode/
 
-# Saved directories
-directories.txt
+# python
+*.pyc
 
-# Object files
-*.o
+# mac
+.DS_Store
+
+# django
+*.sqlite3
